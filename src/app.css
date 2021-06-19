@@ -12,17 +12,45 @@
   --nav-bar-height: 100px;
 
   background-color: var(--jet);
-  height: calc(100%);
+  min-height: 100%;
+  padding-bottom: 100px;
 }
 
 .app h1 {
   display: block;
-  width: 100%;
+  width: calc(100% - 10%);
   padding: 40px 5%;
   font-size: 3em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--seashell);
+}
+
+.app h2 {
+  display: block;
+  width: calc(100% - 10%);
+  padding: 40px 5% 0px 5%;
+  margin: 0;
+  font-size: 2em;
+  color: var(--seashell);
+  font-weight: bold;
+}
+
+.app p {
+  display: block;
+  width: calc(100% - 10%);
+  margin: 0;
+  padding: 0 5%;
+  color: var(--melon);
+}
+
+.app ul {
+  display: block;
+  display: block;
+  width: calc(100% - 10% - 2em);
+  margin: 0;
+  padding: 0 5% 0 calc(5% + 2em);
+  color: var(--melon);
 }
 
 .nav-bar-container > nav {
@@ -76,16 +104,13 @@
 
 html {
   height: 100%;
-  padding: 0;
 }
 
 body {
   height: 100%;
-  padding: 0;
 }
 
 body > div {
   /* #root */
   height: 100%;
-  padding: 0;
 }
