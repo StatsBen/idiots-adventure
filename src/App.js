@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -6,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import About from './about/About'
 
 function App() {
   return (
@@ -29,22 +29,22 @@ function App() {
             </ul>
           </nav>
         </div>
-      </Router>
 
-      <Switch>
-        <Route path="/registration">
-          {/* TODO */}
-        </Route>
-        <Route path="/about">
-          {/* TODO */}
-        </Route>
-        <Route path="/course">
-          {/* TODO */}
-        </Route>
-        <Route path="/">
-          {/* TODO */}
-        </Route>
-      </Switch>
+        <Switch>
+          <Route path="/registration">
+            {/* TODO */}
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/course">
+            {/* TODO */}
+          </Route>
+          <Route path="/">
+            {/* TODO */}
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
