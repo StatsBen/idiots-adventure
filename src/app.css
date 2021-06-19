@@ -1,0 +1,72 @@
+.app {
+  --seashell: #fff1eb; /* lighter apricot */
+  --apricot: #ffc9ad;
+  --melon: #ffb4a2;
+  --pastel-pink: #e5989b;
+  --english-lavender: #b5838d;
+  --old-lavender: #6d6875;
+  --jet: #323036; /* darker old-lavender */
+
+  --nav-bar-height: 100px;
+
+  background-color: var(--jet);
+  height: calc(100%);
+}
+
+.app h1 {
+  display: block;
+  width: 100%;
+  padding: 40px 5%;
+  font-size: 3em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--seashell);
+}
+
+.nav-bar-container > nav {
+  height: var(--nav-bar-height);
+  background: var(--apricot);
+}
+
+.nav-bar-container > nav > ul {
+  display: flex;
+  margin: 0;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar-container > nav > ul > li {
+  display: block;
+  flex: 0 1 auto;
+  list-style-type: none;
+  margin: 0 20px;
+  padding: 20px;
+}
+
+.nav-bar-container > nav > ul > li > a {
+  text-decoration: none;
+  color: var(--old-lavender);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-bar-container > nav > ul > li > a:hover {
+  color: var(--pastel-pink);
+}
+
+html {
+  height: 100%;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+}
+
+body > div {
+  /* #root */
+  height: 100%;
+  padding: 0;
+}

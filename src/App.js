@@ -1,3 +1,4 @@
+import "./app.css";
 import "./nav-bar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./about/About";
@@ -7,7 +8,7 @@ import Registration from "./registration/Registration";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Router>
         <div className="nav-bar-container">
           <nav>
