@@ -1,11 +1,9 @@
-import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import About from './about/About'
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import About from "./about/About";
+import Course from "./course/Course";
+import Home from "./home/Home";
+import Registration from "./registration/Registration";
 
 function App() {
   return (
@@ -32,16 +30,16 @@ function App() {
 
         <Switch>
           <Route path="/registration">
-            {/* TODO */}
+            <Registration />
           </Route>
           <Route path="/about">
             <About />
           </Route>
           <Route path="/course">
-            {/* TODO */}
+            <Course />
           </Route>
           <Route path="/">
-            {/* TODO */}
+            <Home />
           </Route>
         </Switch>
       </Router>
