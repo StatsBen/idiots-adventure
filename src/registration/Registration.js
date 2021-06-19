@@ -87,6 +87,12 @@ const Registration = () => {
         </li>
         <li>Car-transport to/from the bike drop-off and starting line,</li>
       </ul>
+      <br />
+      <p>
+        I will also consider interesting trades in place of your registration
+        fee. If you have a trade to propose, enquire when you send in your
+        registration form.
+      </p>
       <h2 id="how-to">How to Register</h2>
       <p>
         To register, please fill out the registration form and email it to Ben

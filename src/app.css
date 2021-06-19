@@ -7,9 +7,7 @@
   --old-lavender: #6d6875;
   --jet: #323036; /* darker old-lavender */
 
-  --mobile-breakpoint: 500px;
-
-  --nav-bar-height: 100px;
+  --accent-font: "Satisfy", cursive;
 
   background-color: var(--jet);
   min-height: 100%;
@@ -69,7 +67,7 @@ ol {
 
 .nav-bar-container > nav > ul {
   display: flex;
-  height: var(--nav-bar-height);
+  height: 80px;
   margin: 0;
   padding: 20px;
   align-items: center;
@@ -110,6 +108,28 @@ ol {
 
 .nav-bar-container > nav > ul > li > a:hover {
   color: var(--pastel-pink);
+}
+
+.big-title h1 {
+  margin-top: 200px;
+  text-transform: initial;
+  font-size: 5em;
+  font-family: var(--accent-font);
+}
+
+img.full-width {
+  width: 100%;
+}
+
+.home-page {
+  min-height: 800px;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.home-page h1:first-child {
+  margin: 0;
 }
 
 html {

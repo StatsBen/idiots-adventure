@@ -3,9 +3,7 @@ const About = () => {
     <div>
       <h1>About</h1>
       <h2 id="race">The Race</h2>
-      <p>
-        This is a 5-stage adventure race comprised of 4 separate activities:
-      </p>
+      <p>This is a 5-part adventure race comprising 4 separate activities:</p>
       <ol>
         <li>A 1.5km river-float on the Illecilewaet,</li>
         <li>A 2km run with your floaty-toy to the drop-site,</li>
@@ -16,22 +14,44 @@ const About = () => {
       <br />
       <h2 id="format">The Format</h2>
       <p>
-        This will be a <strong>stage race</strong>, meaning the 5 segments will
-        be run like 5 separate little races for which your overall time will be
-        the sum of your times in each of the segments. This will allow the whole
-        gang to group up and laugh at each other periodically throughout the
-        day.
+        This will be a <strong>team race</strong>, meaning you will be competing
+        as groups of 2 to 4, and the clock doesn't stop until your whole team
+        crosses the finish-line. This is primarily for safety, since this is a
+        totally jenky-ass event featuring hundreds of possible ways to die, so
+        hopefully grouping you all up into teams will increase the probability
+        that you keep each other alive.
       </p>
       <br />
       <p>
-        Additionally, this will be a <strong>team race</strong>, meaning you
-        will be competing as groups of 2 to 4, and the clock doesn't stop until
-        your whole team crosses the finish-line at each segment. This is
-        primarily for safety, since this is a totally jenky-ass event featuring
-        hundreds of possible ways to die, so hopefully grouping you all up into
-        teams will increase the probability that you keep each other alive.
+        Additionally, there will be Barkley Marathons-style checkpoints where
+        racers will be expected to collect the page of a book corresponding to
+        their bib number to prove that they passed every part of the course.
       </p>
       <br />
+      <h2 id="contingencies">Contingencies</h2>
+      <p>
+        <strong>This race could be cancelled at literally any time</strong>.
+        This is an outdoor event, so if the weather totally sucks it will be
+        cancelled, and I'll try to salvage as much of the party as possible, but
+        I guarantee nothing.
+      </p>
+      <br />
+      <p>
+        The most dangerous part of this race by far is the river-float, so if
+        it's even the tiniest bit too cold or wet this part will be replaced
+        with something else stupid (but warmer). I'm not willing to risk anyone
+        getting hypothermic. However, the rest of the race should be fine in
+        anything but the worst weather.
+      </p>
+      <br />
+      <p>
+        In the event of a cancellation, I'll return as much of the supplies as
+        possible and refund you what I can, but I make no guarantees, so you
+        should basically treat this like a non-refundable deposit. By
+        registering for this race, you implicitly forgo your right to act
+        butthurt if it doesn't go as planned and I don't want to hear any
+        whining about it.
+      </p>
       <h2 id="afterparty">The After-Party</h2>
       <p>
         The race ends at my house which has a pool and a grill, so stick around
@@ -56,8 +76,76 @@ const About = () => {
         basis. And if we run out of space for you to crash here, you're still
         invited to go out for breakfast the following morning :)
       </p>
+      <h2 id="liability">Liability</h2>
+      <p>
+        This race will be super dangerous, and I don't have any insurance. This
+        is not an official event, and you're all just here because some idiot
+        with no qualifications of any kind except an affinity for tequila asked
+        you to show up. If something bad happens, no help of any kind is
+        guaranteed. Your participation in this event is an implicit agreemend
+        that you're at least as supid as the idiot hosting this thing, and
+        you're responsible for whatever terrible fate befalls you.
+      </p>
       <h2 id="sponsors">Sponsors</h2>
       <p>... want to sponsor this event?</p>
+      <h2 id="equipment">Mandatory Equipment</h2>
+      <p>
+        In order to compete in this race you will need the following equipment.{" "}
+        <strong>
+          You will be asked to present this equipment at the starting line, and
+          if you're missing any of the mandatory items YOU WILL NOT BE ALLOWED
+          TO RACE
+        </strong>{" "}
+        (although you can still heckle the racers and come drink with us
+        afterwards)
+      </p>
+      <br />
+      <ul>
+        <li>
+          A pool-floaty (for the 1.5km river-float){" "}
+          <strong>
+            yes this is mandatory, both for safety, and because the water in
+            this stretch of river is fucking freezing
+          </strong>
+        </li>
+        <li>
+          A communication device (each team needs some way to contact the race
+          organizer at all times - a cell phone is recommended, but a VHF would
+          work too).
+        </li>
+        <li>
+          A navigation device with the race-course loaded on it (could be a GPS
+          watch, GPS, or cell phone - again minimum one per team).
+        </li>
+        <li>Ability to carry at least 0.5L water at all times.</li>
+        <li>Sun protection (sunscreen or clothes that cover most skin).</li>
+      </ul>
+      <h2 id="optional-equipment">Option Equipment</h2>
+      <ul>
+        <li>Squirt-guns,</li>
+        <li>Non-lethal booby traps,</li>
+        <li>Costumes,</li>
+        <li>
+          Small animals that can ride on your shoulder for the duration of the
+          race,
+        </li>
+        <li>More snacks (the provided canap&eacute;s will be small),</li>
+        <li>Hopes and dreams,</li>
+        <li>Irrational fears,</li>
+        <li>Aspirations to be an astronaut,</li>
+        <li>A picture of your crush in a locket,</li>
+        <li>Graphic-novel ideas,</li>
+        <li>Posters of George Clooney,</li>
+        <li>More alcohol,</li>
+        <li>Lists of things you dislike,</li>
+        <li>Mixtapes,</li>
+        <li>False mustaches,</li>
+        <li>Puka shell necklaces,</li>
+        <li>
+          A tote bag that you can fill with things you find during the race,
+        </li>
+        <li>Bob Ross painting kits</li>
+      </ul>
     </div>
   );
 };
