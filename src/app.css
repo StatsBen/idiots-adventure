@@ -7,6 +7,8 @@
   --old-lavender: #6d6875;
   --jet: #323036; /* darker old-lavender */
 
+  --mobile-breakpoint: 500px;
+
   --nav-bar-height: 100px;
 
   background-color: var(--jet);
@@ -24,16 +26,25 @@
 }
 
 .nav-bar-container > nav {
-  height: var(--nav-bar-height);
   background: var(--apricot);
 }
 
 .nav-bar-container > nav > ul {
   display: flex;
+  height: var(--nav-bar-height);
   margin: 0;
   padding: 20px;
   align-items: center;
   justify-content: center;
+}
+
+/* MOBILE */
+@media screen and (max-width: 500px) {
+  .nav-bar-container > nav > ul {
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+  }
 }
 
 .nav-bar-container > nav > ul > li {
@@ -42,6 +53,14 @@
   list-style-type: none;
   margin: 0 20px;
   padding: 20px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 500px) {
+  .nav-bar-container > nav > ul > li {
+    margin: 0 0;
+    padding: 5px;
+  }
 }
 
 .nav-bar-container > nav > ul > li > a {
