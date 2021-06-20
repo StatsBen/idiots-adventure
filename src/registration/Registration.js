@@ -25,10 +25,10 @@ const Registration = () => {
       </p>
       <br />
       <p>
-        <strong>Tier A Volunteers</strong> will get 100% of their registration
-        fee waived, but they probably won't be able to participate in the race
-        (so it's basically just a free dinner/beers at the after-party). Anyone
-        get hurt mountain biking yet? I need 2 tier-A volunteers:
+        <strong>Co-organizers</strong> will get 100% of their registration fee
+        waived, but they probably won't be able to participate in the race (so
+        it's basically just a free dinner/beers at the after-party). Anyone get
+        hurt mountain biking yet? I need 2 co-organizer volunteers:
       </p>
       <ul>
         <li>
@@ -38,27 +38,27 @@ const Registration = () => {
         </li>
         <li>
           A second to pick up the cake and keg and bring them to the finish
-          line/after party (this will have to happen during the race).
+          line/after-party (this will have to happen during the race).
         </li>
       </ul>
       <br />
       <p>
-        <strong>Tier B Volunteers</strong> will get a 20% discount on their
-        registration fee in exchange for a little bit of pitching in before or
-        after the event. I'll need 5 of these volunteers:{" "}
+        <strong>Just Regular Volunteers</strong> will get a 20% discount on
+        their registration fee in exchange for a little bit of pitching in
+        before or after the event. I'll need 5 of these volunteers:{" "}
       </p>
       <ul>
         <li>one to help the day prior with some flagging and food prep,</li>
         <li>one to run the barbecue at the after-party,</li>
         <li>
-          and 3 to stick around and do whatever cleanup stuff is left
-          outstanding the following morning.
+          and 3 to stick around and do whatever cleanup shit is left outstanding
+          the following morning.
         </li>
       </ul>
       <br />
       <p>
-        If you're a cheap-ass or just want to feel helpful, enquire about
-        volunteering when you send in your registration email.
+        If you're a cheap-ass, or if you just want to feel helpful, enquire
+        about volunteering when you send in your registration email.
       </p>
       <h2 id="cost">Cost</h2>
       <p>
@@ -73,6 +73,13 @@ const Registration = () => {
       <p>Your registration fee is paying for:</p>
       <ul>
         <li>Attendance in the stupidest birthday party of the year,</li>
+        <li>
+          A chance to win the grand prize (a big piece of cheese valued at
+          ~$30),
+        </li>
+        <li>
+          Participation medal (which is actually a cookie shaped like a medal),
+        </li>
         <li>Aid-station supplies (water, Nuun, and canap&eacute;s TBD),</li>
         <li>Your Pipe-Coaster ticket,</li>
         <li>
@@ -84,10 +91,7 @@ const Registration = () => {
           should be enough for a few pints each),
         </li>
         <li>A cake of Ben's choosing,</li>
-        <li>
-          Pool access (there's a pool at the house, so bring a bathing suit for
-          the after-party),
-        </li>
+        <li>Pool access (there's a pool at the house, how cool is that???),</li>
       </ul>
       <br />
       <p>
@@ -116,7 +120,7 @@ const Registration = () => {
       <h2 id="accommodation">Accommodation</h2>
       <p>
         There's space on couches here at the house for 3 people. Additionally,
-        part of the back yard is separrated from the pool-area by a fence, and
+        part of the back yard is separated from the pool-area by a fence, and
         there's room for 3 or 4 tents. If you'd like to crash here the night
         before or after the event, please enquire when you send your
         registration email. These will be offered on a first-come-first-served
@@ -125,7 +129,7 @@ const Registration = () => {
       </p>
       <h2 id="how-to">How to Register</h2>
       <p>
-        To register, please fill out the registration form and email it to Ben
+        To register, please fill out the registration form, and email it to Ben
         at "<code>ben.clark456@gmail.com</code>".
       </p>
       <br />

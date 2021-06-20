@@ -8,7 +8,10 @@ const Home = () => {
         style={{ backgroundImage: "url(/begbie-large.jpg)" }}
       >
         <div className="big-title">
-          <h1>the Iditos' Adventure</h1>
+          <h1>
+            the Super-Iditos' <br />
+            Adventure Race
+          </h1>
           <span>The stupidest adventure you'll have all year...</span>
         </div>
       </div>
