@@ -37,10 +37,10 @@ const About = () => {
       <br />
       <h2 id="contingencies">Contingencies</h2>
       <p>
-        <strong>This race could be cancelled at literally any time</strong>.
-        This is an outdoor event, so if the weather totally sucks it will be
-        cancelled, and I'll try to salvage as much of the party as possible, but
-        I guarantee nothing.
+        <strong>This race could be cancelled at any time</strong>. There are
+        literally hundreds of reasons this thing might fall apart. If it does,
+        I'll try to salvage as much of the party as possible, but I guarantee
+        nothing.
       </p>
       <br />
       <p>
@@ -52,31 +52,32 @@ const About = () => {
       </p>
       <br />
       <p>
-        In the event of a cancellation, I'll return as much of the supplies as
-        possible and refund you what I can, but I make no guarantees, so you
-        should basically treat this like a non-refundable deposit. By
-        registering for this race, you implicitly forgo your right to act
-        butthurt if it doesn't go as planned and I don't want to hear any
+        In the event of a total cancellation, I'll return as much of the
+        supplies as possible and refund you what I can, but I make no
+        guarantees, so you should basically treat this like a non-refundable
+        deposit. By registering for this race, you implicitly forgo your right
+        to act butthurt if it doesn't go as planned and I don't want to hear any
         whining about it.
       </p>
       <h2 id="afterparty">The After-Party</h2>
       <p>
-        The race ends at my house which has a pool and a grill, so stick around
-        afterwards for beers, cake, swimming, and the awards ceremony. A dinner
-        of weiner-shaped, grilled foods will be provided with race registration,
-        as well as a keg.{" "}
+        The race will end at my house which has a pool and a grill, so stick
+        around afterwards for beers, cake, swimming, and the awards ceremony. A
+        dinner of weiner-shaped, grilled foods will be provided with race
+        registration, as well as a keg.{" "}
         <strong>
           Because it's a Wednesday night and we have neighbours, the music will
-          stop at 9 PM and you all need to go the fuck home!!!!!!!
+          stop at 9 PM and you all need to go home!!!!!!!
         </strong>{" "}
-        Or I guess some stragglers can stay and we can move things down to the
-        basement and play pool or something... But there isn't room for 25, so
-        hopefully some of you leave.
+        The mosquitos will start to get bad around 7:30 anyways, so you'll
+        probably be happy to leave. Or I guess some stragglers can stay and we
+        can move things down to the basement and play pool or something... But
+        there isn't room for 25, so hopefully some of you leave.
       </p>
       <h2 id="accommodations">Accommodations</h2>
       <p>
         There's space on couches here at the house for 3 people. Additionally,
-        part of the back yard is separrated from the pool-area by a fence, and
+        part of the back yard is separated from the pool-area by a fence, and
         there's room for 3 or 4 tents. If you'd like to crash here the night
         before or after the event, please enquire when you send your
         registration email. These will be offered on a first-come-first-served
@@ -89,12 +90,13 @@ const About = () => {
         is not an official event, and you're all just here because some idiot
         with no qualifications of any kind except an affinity for tequila asked
         you to show up. If something bad happens, no help of any kind is
-        guaranteed. Your participation in this event is an implicit agreemend
+        guaranteed. Your participation in this event is an implicit agreement
         that you're at least as supid as the idiot hosting this thing, and
         you're responsible for whatever terrible fate befalls you.
       </p>
       <h2 id="sponsors">Sponsors</h2>
       <p>... want to sponsor this event?</p>
+      <br />
       <h2 id="equipment">Mandatory Equipment</h2>
       <p>
         In order to compete in this race you will need the following equipment.{" "}
@@ -142,7 +144,9 @@ const About = () => {
         <li>Aspirations to be an astronaut,</li>
         <li>A picture of your crush in a locket,</li>
         <li>Graphic-novel ideas,</li>
-        <li>Posters of George Clooney,</li>
+        <li>
+          Posters of George Clooney (in case you see him and want it signed),
+        </li>
         <li>More alcohol,</li>
         <li>Lists of things you dislike,</li>
         <li>Mixtapes,</li>
