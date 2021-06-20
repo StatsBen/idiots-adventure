@@ -12,6 +12,18 @@ const Course = () => {
         .
       </p>
       <br />
+      <div>
+        <img
+          className="side-by-side"
+          src="/course-north.png"
+          alt="Google Earth view of the race course"
+        />
+        <img
+          className="side-by-side"
+          src="/course-south.png"
+          alt="Google Earth view of the race course"
+        />
+      </div>
       <h2 id="description">Course Description</h2>
       <p>
         This is a rugged course full of hazards. You'll float, you'll walk with

@@ -15,9 +15,9 @@ const Home = () => {
       <h2>What is this?</h2>
       <br />
       <p>
-        This year, for my birthday, I had a bad idea, I want to host a silly
-        race that all my friends can attend for fun. I hope it'll be ridiculous,
-        and I hope I'll see you there.
+        This year, for my birthday, I'm hosting a silly race that all my friends
+        can attend for fun. I hope it'll be ridiculous, and I hope I'll see you
+        there.
       </p>
       <p>Some more info: </p>
       <br />

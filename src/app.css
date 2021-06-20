@@ -133,6 +133,25 @@ ol {
   margin-left: 10%;
 }
 
+img.full-width {
+  width: 80%;
+  margin: 40px 10%;
+}
+
+img.side-by-side:nth-of-type(1) {
+  min-width: 400px;
+  float: left;
+  width: 42.5%;
+  margin: 30px 2.5% 50px 5%;
+}
+
+img.side-by-side:nth-of-type(2) {
+  min-width: 400px;
+  float: right;
+  width: 42.5%;
+  margin: 30px 5% 50px 2.5%;
+}
+
 html {
   height: 100%;
 }

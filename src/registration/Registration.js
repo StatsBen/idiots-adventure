@@ -3,16 +3,20 @@ const Registration = () => {
   return (
     <div>
       <h1>Registration</h1>
+      <br />
+      <p>
+        Limit: 25 participants (just to keep things from getting too insane).
+      </p>
       <h2 id="dates">Dates</h2>
       <p>
-        <strong>Priority Registration:</strong> Opens June 25<sup>th</sup>,
+        <strong>Priority Registration:</strong> Opens June 21<sup>st</sup>,
         2021.
       </p>
       <p>
-        <strong>General Registration:</strong> Opens June 30<sup>th</sup>, 2021.
+        <strong>General Registration:</strong> Opens June 28<sup>th</sup>, 2021.
       </p>
       <p>
-        <strong>Event Date:</strong> September 1<sup>st</sup>, 2021
+        <strong>Event Date:</strong> Wednesday, September 1<sup>st</sup>, 2021
       </p>
       <h2 id="volunteering">Volunteering</h2>
       <p>
@@ -22,22 +26,35 @@ const Registration = () => {
       <br />
       <p>
         <strong>Tier A Volunteers</strong> will get 100% of their registration
-        fee waived, but they probably won't be able to participate in the race.
-        I need 3 of them - one to occupy the first aid-station at the river
-        exit, one to occupy the second aid-station at the bike pickup at the
-        bottom of the Pipe Coaster, and a third to photograph the event.
-        Basically these folks will be trading some work for free dinner and
-        beer.
+        fee waived, but they probably won't be able to participate in the race
+        (so it's basically just a free dinner/beers at the after-party). Anyone
+        get hurt mountain biking yet? I need 2 tier-A volunteers:
       </p>
+      <ul>
+        <li>
+          One to occupy the second aid-station. This will involve guarding the
+          bikes during the race, and handing out shots/canap&eacute;s when
+          racers arrive at the aid station.
+        </li>
+        <li>
+          A second to pick up the cake and keg and bring them to the finish
+          line/after party (this will have to happen during the race).
+        </li>
+      </ul>
       <br />
       <p>
         <strong>Tier B Volunteers</strong> will get a 20% discount on their
         registration fee in exchange for a little bit of pitching in before or
-        after the event. I'll need 5 of these volunteers, one to help the day
-        prior with some flagging and food prep, one to run the barbecue at the
-        after-party, and 3 to stick around and do whatever cleanup stuff is left
-        outstanding the following morning.
+        after the event. I'll need 5 of these volunteers:{" "}
       </p>
+      <ul>
+        <li>one to help the day prior with some flagging and food prep,</li>
+        <li>one to run the barbecue at the after-party,</li>
+        <li>
+          and 3 to stick around and do whatever cleanup stuff is left
+          outstanding the following morning.
+        </li>
+      </ul>
       <br />
       <p>
         If you're a cheap-ass or just want to feel helpful, enquire about
@@ -45,7 +62,7 @@ const Registration = () => {
       </p>
       <h2 id="cost">Cost</h2>
       <p>
-        The cost of registration will be <strong>$90 CAD</strong>, and it is due
+        The cost of registration will be <strong>$65 CAD</strong>, and it is due
         at registration.{" "}
         <strong>
           You will not have your spot saved until you've sent in an eTransfer or
@@ -67,7 +84,10 @@ const Registration = () => {
           should be enough for a few pints each),
         </li>
         <li>A cake of Ben's choosing,</li>
-        <li>Pool access,</li>
+        <li>
+          Pool access (there's a pool at the house, so bring a bathing suit for
+          the after-party),
+        </li>
       </ul>
       <br />
       <p>
@@ -92,6 +112,16 @@ const Registration = () => {
         I will also consider interesting trades in place of your registration
         fee. If you have a trade to propose, enquire when you send in your
         registration form.
+      </p>
+      <h2 id="accommodation">Accommodation</h2>
+      <p>
+        There's space on couches here at the house for 3 people. Additionally,
+        part of the back yard is separrated from the pool-area by a fence, and
+        there's room for 3 or 4 tents. If you'd like to crash here the night
+        before or after the event, please enquire when you send your
+        registration email. These will be offered on a first-come-first-served
+        basis. And if we run out of space for you to crash here, you're still
+        invited to go out for breakfast the following morning :)
       </p>
       <h2 id="how-to">How to Register</h2>
       <p>

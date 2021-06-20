@@ -2,6 +2,13 @@ const About = () => {
   return (
     <div>
       <h1>About</h1>
+      <div>
+        <img
+          src="/begbie-small.jpg"
+          className="full-width"
+          alt="The Flats and Mt. Begbie beyond"
+        />
+      </div>
       <h2 id="race">The Race</h2>
       <p>This is a 5-part adventure race comprising 4 separate activities:</p>
       <ol>
@@ -63,7 +70,7 @@ const About = () => {
           stop at 9 PM and you all need to go the fuck home!!!!!!!
         </strong>{" "}
         Or I guess some stragglers can stay and we can move things down to the
-        basement and play pool or something... But there isn't room for 20, so
+        basement and play pool or something... But there isn't room for 25, so
         hopefully some of you leave.
       </p>
       <h2 id="accommodations">Accommodations</h2>
