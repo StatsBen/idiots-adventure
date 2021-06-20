@@ -1,2 +1,4 @@
 node_modules
 idiots-adventure.code-workspace
+build/
+.firebase/
