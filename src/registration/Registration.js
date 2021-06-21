@@ -16,7 +16,7 @@ const Registration = () => {
         <strong>General Registration:</strong> Opens June 28<sup>th</sup>, 2021.
       </p>
       <p>
-        <strong>Event Date:</strong> Wednesday, September 1<sup>st</sup>, 2021
+        <strong>Event Date:</strong> Saturday, September 4<sup>th</sup>, 2021
       </p>
       <h2 id="volunteering">Volunteering</h2>
       <p>

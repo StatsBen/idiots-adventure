@@ -26,8 +26,8 @@ const Home = () => {
       <br />
       <ul>
         <li>
-          When: <strong>Wednesday, September 1</strong>
-          <sup>st</sup>,
+          When: <strong>Saturday, September 4</strong>
+          <sup>th</sup> (pretty much all day),
         </li>
         <li>
           Where: <strong>Revelstoke</strong>,
