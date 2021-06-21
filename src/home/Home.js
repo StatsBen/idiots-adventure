@@ -9,7 +9,7 @@ const Home = () => {
       >
         <div className="big-title">
           <h1>
-            the Super-Iditos' <br />
+            the Super-Idiots' <br />
             Adventure Race
           </h1>
           <span>The stupidest adventure you'll have all year...</span>
